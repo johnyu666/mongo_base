@@ -5,11 +5,16 @@
 db.users.drop();
 
 db.users.insert({uname:'john',age:100,sex:true});
-db.users.insert({uname:'john',age:67,sex:true});
-db.users.insert({uname:'rose',age:98,sex:false});
+
+db.users.insert({uname:'johnson',age:67,sex:true});
+
+db.users.insert({uname:'tom',age:98,sex:false});
+
 db.users.insert({uname:'john',age:12,sex:true});
+
 db.users.insert({uname:'alice',age:76,sex:false});
-db.users.insert({uname:'john',age:9,sex:true});
+
+db.users.insert({uname:'mike',age:9,sex:true});
 
 
 ## 猴子与水果
