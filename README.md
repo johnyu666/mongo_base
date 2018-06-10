@@ -1,5 +1,17 @@
 # 测试用mongo数据
 
+## 基础测试
+
+db.users.drop();
+
+db.users.insert({uname:'john',age:100,sex:true});
+db.users.insert({uname:'john',age:67,sex:true});
+db.users.insert({uname:'rose',age:98,sex:false});
+db.users.insert({uname:'john',age:12,sex:true});
+db.users.insert({uname:'alice',age:76,sex:false});
+db.users.insert({uname:'john',age:9,sex:true});
+
+
 ## 猴子与水果
 
 db.monkey.insert({_id:1,name:'m1',fruit:['apple','bana','peach']}); 
