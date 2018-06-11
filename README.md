@@ -17,6 +17,10 @@ db.users.insert({uname:'alice',age:76,sex:false});
 db.users.insert({uname:'mike',age:9,sex:true});
 
 
+db.users.insert({uname:'cindy',age:30,sex:false,major:'SE'});
+
+db.users.insert({uname:'danny',age:30,sex:true,major:null});
+
 ## 猴子与水果
 
 db.monkey.insert({_id:1,name:'m1',fruit:['apple','bana','peach']}); 
