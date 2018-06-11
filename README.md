@@ -31,7 +31,7 @@ db.monkey.insert({_id:3,name:'m3',fruit:['apple','peach']});
 
 db.monkey.insert({_id:4,name:'m4',fruit:['kumquat','bana','peach']});
 
-
+db.monkey.insert({_id:5,name:'m5',fruit:[]});
 ## 贴子评论
 db.posts.insert({_id:1,title:'t1',date:new Date(1999,10,2),author:'john',content:'c1',comments:[{author:'li',comment:'cc1',score:3},{author:'bu',comment:'cc2',score:5}]});
 
